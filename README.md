@@ -9,4 +9,6 @@ Key features:
 - Minimal & Clean - No clutter, just the essential information you need
 - Perfect for project managers, students, professionals, and anyone who needs to track weeks for planning, deadlines, or scheduling. Whether you're managing sprints, planning events, or just want to stay organized, this extension keeps you informed without any distractions.
 
+Get the extension from [link Chrome store](https://chromewebstore.google.com/detail/week-number/gpohcaeeoippakhcnihncpnaiahlfcij)
+
 ![image](https://brixdk.github.io/week-number/image-2-interface.png)
