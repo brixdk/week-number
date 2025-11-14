@@ -19,180 +19,333 @@
     a {
       color: #0077cc;
     }
-    footer {
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #555;
-    }
+h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            font-size: 2em;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 35px;
+            font-size: 1.5em;
+        }
+        h3 {
+            color: #555;
+            margin-top: 25px;
+            font-size: 1.2em;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            padding-left: 30px;
+            margin: 15px 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .update-date {
+            color: #7f8c8d;
+            font-style: italic;
+            font-size: 0.95em;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        strong {
+            color: #2c3e50;
+        }
+        .highlight-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .contact-box {
+            background-color: #e8f4f8;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 2px solid #ddd;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        .toc {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .toc ul {
+            list-style: none;
+            padding-left: 10px;
+        }
+        .toc li {
+            margin-bottom: 8px;
+        }
+    </style>
   </style>
 </head>
 <body>
-    <h1>Privacy Policy for Week Number</h1>
+    <h1>Privacy Notice</h1>
     <p class="update-date">Last updated: November 14, 2025</p>
 
     <div class="section">
-        <h2>1. Overview</h2>
-        <p>Week Number is a Chrome extension designed to integrate with your Google Calendar to provide a convenient calendar overview with week numbers. This Privacy Policy explains how the extension handles your data and your privacy rights.</p>
+        <p>This privacy notice for <strong>Week Number</strong> (developed by <strong>Creo Digital</strong>) ("we," "us," or "our") describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:</p>
+        <ul>
+            <li>Install and use the Week Number Chrome extension</li>
+            <li>Connect your Google Calendar to the extension</li>
+            <li>Interact with any of the extension's features</li>
+        </ul>
+        <p><strong>Questions or concerns?</strong> Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at creodigital.dk@gmail.com.</p>
     </div>
 
-    <div class="section">
-        <h2>2. Information We Collect</h2>
-        
-        <h3>2.1 Google User Data</h3>
-        <p>When you connect your Google Calendar, the extension requests and accesses the following Google user data through Google's OAuth 2.0 authorization:</p>
-        
-        <p><strong>Calendar Data (via calendar.readonly scope):</strong></p>
+    <div class="toc">
+        <h2>Table of Contents</h2>
         <ul>
-            <li>Calendar event details: event titles, descriptions, start/end times, locations</li>
-            <li>Event participants: attendee email addresses, names, and response status</li>
-            <li>Event metadata: event colors, HTML links to events, all-day event indicators</li>
-            <li>Video conference links (Google Meet/Hangout links)</li>
-            <li>Your calendar settings: timezone, locale preferences, time format (12/24 hour), date format</li>
+            <li><a href="#section1">1. What Information Do We Collect?</a></li>
+            <li><a href="#section2">2. How Do We Process Your Information?</a></li>
+            <li><a href="#section3">3. What Legal Bases Do We Rely On?</a></li>
+            <li><a href="#section4">4. When and With Whom Do We Share Your Personal Information?</a></li>
+            <li><a href="#section5">5. How Long Do We Keep Your Information?</a></li>
+            <li><a href="#section6">6. How Do We Keep Your Information Safe?</a></li>
+            <li><a href="#section7">7. What Are Your Privacy Rights?</a></li>
+            <li><a href="#section8">8. Google API Services User Data Policy Compliance</a></li>
+            <li><a href="#section9">9. Third-Party Services</a></li>
+            <li><a href="#section10">10. Do We Make Updates to This Notice?</a></li>
+            <li><a href="#section11">11. How Can You Contact Us?</a></li>
         </ul>
+    </div>
 
-        <p><strong>Profile Data (via userinfo.email scope):</strong></p>
-        <ul>
-            <li>Your email address</li>
-            <li>Your name (if available)</li>
-        </ul>
+    <div class="section" id="section1">
+        <h2>1. What Information Do We Collect?</h2>
+        
+        <h3>Personal Information You Disclose to Us</h3>
+        <p><strong>In Short:</strong> <em>We collect personal information that you voluntarily provide to us when you connect your Google account to the extension.</em></p>
+        
+        <p>We collect personal information that you voluntarily provide to us when you choose to connect your Google Calendar. The personal information we collect depends on the context of your interactions with us and the Services, the choices you make, and the features you use. The personal information we collect may include the following:</p>
+        
+        <div class="highlight-box">
+            <h4>Google User Data We Access:</h4>
+            <p><strong>Calendar Data (via calendar.readonly scope):</strong></p>
+            <ul>
+                <li>Calendar event details: titles, descriptions, start times, end times, locations</li>
+                <li>Event participants: attendee email addresses, display names, and response statuses</li>
+                <li>Event metadata: color IDs, HTML links to events, all-day event indicators</li>
+                <li>Video conference links (Google Meet/Hangout links)</li>
+                <li>Calendar settings: timezone, locale preferences, time format (12/24 hour), date format preferences</li>
+            </ul>
 
-        <h3>2.2 Local Extension Data</h3>
-        <p>The extension stores the following data locally in your browser:</p>
+            <p><strong>Profile Data (via userinfo.email scope):</strong></p>
+            <ul>
+                <li>Your email address</li>
+                <li>Your name (when available)</li>
+            </ul>
+        </div>
+
+        <h3>Information Automatically Collected</h3>
+        <p><strong>In Short:</strong> <em>Some information is collected automatically when you use our Services.</em></p>
+        
+        <p>We automatically collect certain information when you use the extension. This information does not reveal your specific identity but may include:</p>
         <ul>
-            <li>Your authentication token (OAuth access token)</li>
-            <li>User preferences: theme (light/dark/system), week start day (Sunday/Monday), sync preferences</li>
-            <li>Cached calendar events (to improve performance and reduce API calls)</li>
+            <li>User preferences: theme selection (light/dark/system), week start day preference (Sunday/Monday), sync preferences</li>
+            <li>OAuth authentication tokens (stored securely in Chrome's local storage)</li>
+            <li>Cached calendar events (stored temporarily to improve performance)</li>
             <li>Timestamp of last calendar synchronization</li>
         </ul>
-    </div>
-
-    <div class="section">
-        <h2>3. How We Use Your Information</h2>
         
-        <h3>3.1 Data Usage</h3>
-        <p>The extension uses your Google user data exclusively for the following purposes:</p>
-        <ul>
-            <li><strong>Display week numbers:</strong> Calculate and display the current week number in the browser extension badge</li>
-            <li><strong>Show calendar overview:</strong> Display your calendar events in a monthly view within the extension popup</li>
-            <li><strong>Sync preferences:</strong> Match your Google Calendar settings (timezone, time format) for consistent display</li>
-            <li><strong>Event details:</strong> Show event information including time, location, attendees, and video conference links</li>
-            <li><strong>Performance optimization:</strong> Cache calendar data locally to reduce repeated API requests and improve loading speed</li>
-        </ul>
-
-        <h3>3.2 Data Processing</h3>
-        <p>All data processing occurs locally within your Chrome browser. The extension:</p>
-        <ul>
-            <li>Fetches calendar data directly from Google's servers to your browser</li>
-            <li>Processes and displays the data within the extension interface</li>
-            <li>Caches data temporarily in your browser's local storage</li>
-            <li>Does NOT send your data to any third-party servers</li>
-            <li>Does NOT share your data with any external services</li>
-        </ul>
+        <p><strong>All this information is stored locally on your device and is never transmitted to our servers.</strong></p>
     </div>
 
-    <div class="section">
-        <h2>4. Data Storage and Retention</h2>
+    <div class="section" id="section2">
+        <h2>2. How Do We Process Your Information?</h2>
+        <p><strong>In Short:</strong> <em>We process your information to provide, improve, and administer our Services, and to comply with legal obligations.</em></p>
         
-        <h3>4.1 Local Storage</h3>
-        <p>All Google user data is stored exclusively in your browser using Chrome's local storage APIs:</p>
+        <p>We process your personal information for a variety of reasons, depending on how you interact with our Services, including:</p>
         <ul>
-            <li><strong>OAuth tokens:</strong> Stored securely using Chrome Identity API</li>
-            <li><strong>Calendar events:</strong> Cached temporarily; automatically refreshes every 30 minutes</li>
-            <li><strong>User preferences:</strong> Stored until you change them or disconnect the extension</li>
+            <li><strong>To display week numbers:</strong> Calculate and display the current week number in the browser extension badge based on your week start preference</li>
+            <li><strong>To show your calendar:</strong> Display your calendar events in a monthly view within the extension popup</li>
+            <li><strong>To match your preferences:</strong> Synchronize with your Google Calendar settings (timezone, time format) for consistent display</li>
+            <li><strong>To provide event details:</strong> Show comprehensive event information including time, location, attendees, and video conference links</li>
+            <li><strong>To improve performance:</strong> Cache calendar data locally to reduce repeated API requests and provide faster loading times</li>
         </ul>
+        
+        <div class="highlight-box">
+            <p><strong>Important:</strong> All data processing occurs locally within your Chrome browser. We do NOT:</p>
+            <ul>
+                <li>Send your data to any third-party servers</li>
+                <li>Share your data with any external services</li>
+                <li>Use your data for advertising or analytics</li>
+                <li>Sell or monetize your personal information</li>
+            </ul>
+        </div>
+    </div>
 
-        <h3>4.2 Data Retention</h3>
+    <div class="section" id="section3">
+        <h2>3. What Legal Bases Do We Rely On to Process Your Information?</h2>
+        <p><strong>In Short:</strong> <em>We only process your personal information when we believe it is necessary and we have a valid legal reason to do so.</em></p>
+        
+        <p>We process your personal information based on:</p>
         <ul>
-            <li>Calendar data is cached locally and refreshed periodically</li>
-            <li>All data is automatically cleared when you disconnect your Google Calendar</li>
-            <li>Data remains on your device only; no server-side storage exists</li>
-            <li>Uninstalling the extension removes all stored data</li>
+            <li><strong>Consent:</strong> You provide explicit consent when you connect your Google Calendar to the extension through OAuth 2.0 authorization</li>
+            <li><strong>Legitimate Interests:</strong> We process your information to provide and improve the extension functionality you requested</li>
+        </ul>
+        
+        <p>You may withdraw your consent at any time by disconnecting your Google Calendar through the extension settings or by uninstalling the extension.</p>
+    </div>
+
+    <div class="section" id="section4">
+        <h2>4. When and With Whom Do We Share Your Personal Information?</h2>
+        <p><strong>In Short:</strong> <em>We do not share your information with third parties.</em></p>
+        
+        <p>We do NOT share, sell, rent, or trade your personal information with third parties for their promotional purposes.</p>
+        
+        <p>The only data transmission that occurs is between:</p>
+        <ul>
+            <li><strong>Your browser and Google's Calendar API:</strong> To fetch your calendar data directly from Google's servers</li>
+            <li><strong>Your browser and Google's OAuth servers:</strong> For secure authentication purposes</li>
+        </ul>
+        
+        <p>No intermediary servers are involved. Your data flows directly from Google to your browser and stays on your device.</p>
+    </div>
+
+    <div class="section" id="section5">
+        <h2>5. How Long Do We Keep Your Information?</h2>
+        <p><strong>In Short:</strong> <em>We keep your information only as long as necessary for the purposes set out in this privacy notice.</em></p>
+        
+        <p>We store your information locally on your device:</p>
+        <ul>
+            <li><strong>OAuth tokens:</strong> Stored securely using Chrome Identity API until you disconnect or revoke access</li>
+            <li><strong>Calendar events:</strong> Cached temporarily and automatically refreshed every 30 minutes</li>
+            <li><strong>User preferences:</strong> Stored until you change them, disconnect the extension, or uninstall it</li>
+        </ul>
+        
+        <p><strong>When you disconnect your Google Calendar or uninstall the extension, all stored data is automatically deleted from your device.</strong></p>
+    </div>
+
+    <div class="section" id="section6">
+        <h2>6. How Do We Keep Your Information Safe?</h2>
+        <p><strong>In Short:</strong> <em>We aim to protect your personal information through a system of organizational and technical security measures.</em></p>
+        
+        <p>We have implemented appropriate technical and organizational security measures designed to protect the security of any personal information we process. These measures include:</p>
+        <ul>
+            <li>Using Google's official OAuth 2.0 authentication flow (industry standard for secure authorization)</li>
+            <li>Never handling or storing your Google password</li>
+            <li>Storing authentication tokens using Chrome's secure storage APIs</li>
+            <li>Requesting only read-only access to your calendar (we cannot modify or delete your events)</li>
+            <li>Processing all data locally within your browser's secure, sandboxed environment</li>
+            <li>No server-side storage or processing of your personal data</li>
+        </ul>
+        
+        <p>However, please note that no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure. While we implement reasonable security measures, we cannot guarantee absolute security.</p>
+    </div>
+
+    <div class="section" id="section7">
+        <h2>7. What Are Your Privacy Rights?</h2>
+        <p><strong>In Short:</strong> <em>You have complete control over your data and can access, change, or delete your information at any time.</em></p>
+        
+        <p>You have the following rights regarding your personal information:</p>
+        <ul>
+            <li><strong>Right to Access:</strong> View all stored data through Chrome's developer tools (chrome://extensions)</li>
+            <li><strong>Right to Revoke:</strong> Disconnect your Google Calendar at any time through the extension settings</li>
+            <li><strong>Right to Delete:</strong> All data is automatically cleared when you disconnect or uninstall the extension</li>
+            <li><strong>Right to Control Sync:</strong> Enable or disable calendar synchronization through extension settings</li>
+            <li><strong>Right to Withdraw Consent:</strong> Revoke OAuth access through <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account Permissions</a></li>
+        </ul>
+        
+        <h3>How to Exercise Your Rights</h3>
+        <p>To exercise any of these rights:</p>
+        <ol>
+            <li>Open the Week Number extension</li>
+            <li>Click the settings icon</li>
+            <li>Use the "Disconnect" option to revoke access and clear all data</li>
+        </ol>
+        
+        <p>Alternatively, you can:</p>
+        <ul>
+            <li>Visit your <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account Permissions</a> page and remove Week Number's access</li>
+            <li>Uninstall the extension from chrome://extensions</li>
         </ul>
     </div>
 
-    <div class="section">
-        <h2>5. Data Sharing and Transmission</h2>
-        <p>Week Number does NOT:</p>
-        <ul>
-            <li>Share your Google user data with any third parties</li>
-            <li>Sell or monetize your data</li>
-            <li>Transmit your data to any external servers (except direct communication with Google's APIs)</li>
-            <li>Use your data for advertising or analytics</li>
-        </ul>
-
-        <p>The only data transmission occurs between:</p>
-        <ul>
-            <li>Your browser and Google's Calendar API (to fetch calendar data)</li>
-            <li>Your browser and Google's OAuth servers (for authentication)</li>
-        </ul>
+    <div class="section" id="section8">
+        <h2>8. Google API Services User Data Policy Compliance</h2>
+        <p>Week Number's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+        
+        <div class="highlight-box">
+            <h3>Limited Use Disclosure</h3>
+            <p>Week Number's use and transfer to any other app of information received from Google APIs will adhere to <a href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes" target="_blank" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+            
+            <p>Specifically, Week Number:</p>
+            <ul>
+                <li>Only uses Google user data to provide and improve the user-facing features described in this privacy notice</li>
+                <li>Limits data usage to practices explicitly disclosed in this privacy policy</li>
+                <li>Does NOT transfer Google user data to third parties (except as necessary to provide the extension functionality, comply with applicable law, or as part of a merger or acquisition with notice to users)</li>
+                <li>Does NOT use or transfer Google user data for serving advertisements</li>
+                <li>Does NOT use or transfer Google user data to determine creditworthiness or for lending purposes</li>
+                <li>Only requests the minimum scopes necessary for functionality (calendar.readonly and userinfo.email)</li>
+            </ul>
+        </div>
     </div>
 
-    <div class="section">
-        <h2>6. Data Security</h2>
-        <p>Week Number implements the following security measures:</p>
-        <ul>
-            <li>Uses Google's official OAuth 2.0 authentication flow (industry standard)</li>
-            <li>Never handles or stores your Google password</li>
-            <li>Stores authentication tokens using Chrome's secure storage APIs</li>
-            <li>Requests only read-only access to your calendar (cannot modify or delete events)</li>
-            <li>Processes all data locally within your browser's secure environment</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>7. Your Privacy Rights</h2>
-        <p>You have complete control over your data:</p>
-        <ul>
-            <li><strong>Access:</strong> View all stored data through Chrome's developer tools</li>
-            <li><strong>Revoke access:</strong> Disconnect Google Calendar at any time through extension settings</li>
-            <li><strong>Delete data:</strong> All data is cleared when you disconnect or uninstall</li>
-            <li><strong>Control sync:</strong> Enable or disable calendar synchronization in settings</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>8. Compliance with Google API Services User Data Policy</h2>
-        <p>This extension complies with the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements. Specifically:</p>
-        <ul>
-            <li>Week Number only uses Google user data to provide and improve user-facing features</li>
-            <li>Data usage is limited to practices disclosed in this privacy policy</li>
-            <li>The extension does NOT transfer Google user data to third parties (except as necessary to provide the extension functionality or as required by law)</li>
-            <li>The extension does NOT use or transfer Google user data for serving ads</li>
-            <li>The extension does NOT use or transfer Google user data to determine creditworthiness or for lending purposes</li>
-        </ul>
-    </div>
-
-    <div class="section">
+    <div class="section" id="section9">
         <h2>9. Third-Party Services</h2>
-        <p>The extension uses:</p>
+        <p>The extension integrates with the following Google services:</p>
         <ul>
             <li><strong>Google Calendar API:</strong> For accessing your calendar data (subject to <a href="https://developers.google.com/terms" target="_blank" rel="noopener">Google APIs Terms of Service</a>)</li>
-            <li><strong>Google OAuth 2.0:</strong> For secure authentication (managed by Google)</li>
+            <li><strong>Google OAuth 2.0:</strong> For secure authentication (managed entirely by Google)</li>
         </ul>
-        <p>No other third-party services are used.</p>
+        
+        <p>These are the only third-party services used by Week Number. We do not integrate with any analytics, advertising, or tracking services.</p>
     </div>
 
-    <div class="section">
-        <h2>10. Changes to this Policy</h2>
-        <p>This Privacy Policy may be updated periodically to reflect changes in:</p>
+    <div class="section" id="section10">
+        <h2>10. Do We Make Updates to This Notice?</h2>
+        <p><strong>In Short:</strong> <em>Yes, we will update this notice as necessary to stay compliant with relevant laws.</em></p>
+        
+        <p>We may update this privacy notice from time to time. The updated version will be indicated by an updated "Last updated" date at the top of this privacy notice. We may update this privacy notice if we:</p>
         <ul>
-            <li>Extension features</li>
-            <li>Legal requirements</li>
-            <li>Google API policies</li>
+            <li>Make changes to the extension features or functionality</li>
+            <li>Need to comply with new legal requirements or regulations</li>
+            <li>Update our data processing practices</li>
+            <li>Need to comply with changes to Google API policies</li>
         </ul>
-        <p>Updates will be published on this page with a new "Last updated" date. Significant changes will be communicated through the Chrome Web Store listing.</p>
+        
+        <p>We encourage you to review this privacy notice frequently to stay informed of how we are protecting your information. Significant changes will also be communicated through the Chrome Web Store listing.</p>
     </div>
 
-    <div class="section">
-        <h2>11. Contact Information</h2>
-        <p>For any questions, concerns, or requests regarding this Privacy Policy or the extension's data practices, you can contact:</p>
-        <p><strong>Email:</strong> <a href="mailto:creodigital.dk@gmail.com">creodigital.dk@gmail.com</a></p>
-        <p><strong>Developer:</strong> Creo Digital</p>
-        <p>For issues related to Google API usage or data handling, please reference the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>.</p>
+    <div class="section" id="section11">
+        <h2>11. How Can You Contact Us About This Notice?</h2>
+        <div class="contact-box">
+            <p>If you have questions or comments about this notice, you may contact us by email:</p>
+            <p><strong>Email:</strong> <a href="mailto:creodigital.dk@gmail.com">creodigital.dk@gmail.com</a></p>
+            <p><strong>Developer:</strong> Creo Digital</p>
+            <p><strong>Extension:</strong> Week Number for Chrome</p>
+        </div>
+        
+        <h3>Review, Update, or Delete Your Data</h3>
+        <p>Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please disconnect the extension through the settings menu.</p>
+        
+        <p>For questions about Google API usage or data handling, please reference:</p>
+        <ul>
+            <li><a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a></li>
+            <li><a href="https://developers.google.com/terms" target="_blank" rel="noopener">Google APIs Terms of Service</a></li>
+        </ul>
     </div>
 
     <footer>
         <p>&copy; 2025 Week Number by Creo Digital. All rights reserved.</p>
+        <p><a href="mailto:creodigital.dk@gmail.com">Contact Us</a> | <a href="https://chromewebstore.google.com/detail/week-number" target="_blank" rel="noopener">Chrome Web Store</a></p>
     </footer>
 </body>
 </html>
