@@ -12,3 +12,5 @@ Key features:
 Get the extension from [link Chrome store](https://chromewebstore.google.com/detail/week-number/gpohcaeeoippakhcnihncpnaiahlfcij)
 
 ![image](https://brixdk.github.io/week-number/image-2-interface.png)
+
+[link Privacy Policy](https://brixdk.github.io/week-number/privacy.html) | [link Terms](https://brixdk.github.io/week-number/terms.html)
